@@ -10,3 +10,6 @@ str(fit)
 
 fitted(fit)
 residuals(fit)
+
+plot(CO2$conc, CO2$uptake, main = "Conc by Uptake")
+abline(fit)
